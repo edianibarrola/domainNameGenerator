@@ -20,7 +20,7 @@ let myDomainGenerator = () => {
         for (let c = 0; c < domainEnd.length; c++) {
           document.querySelector("#domainDisplay").innerHTML +=
             "<li class='list-group-item'>" +
-            "http://www." +
+            "www." +
             pronoun[i] +
             adjective[a] +
             noun[b] +
